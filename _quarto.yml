@@ -20,7 +20,7 @@ website:
 format:
   html:
     theme:
-      - cyborg
+      - cosmo
       - brand
       # - mainfont: "Space Mono"
         # sansfont: "Courier New"
