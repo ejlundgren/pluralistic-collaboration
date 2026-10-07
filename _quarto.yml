@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: docs
+  
+editor: 
+  mode: source
+
+website:
+  title: "Pluralistic collaboration on introduced species"
+  navbar:
+    background: black
+    left: 
+      - href: index.qmd
+        text: Welcome
+      - href: pages/who-we-are.qmd
+      - href: pages/how-to-participate.qmd
+      # - text: "<br>"
+      # - text: "![](/icons/cossee_logo.png){width='60%'}"
+      #   href: https://cossee.org
+format:
+  html:
+    theme:
+      - cyborg
+      - brand
+      # - mainfont: "Space Mono"
+        # sansfont: "Courier New"
+    css: styles.css
+    toc: true
+

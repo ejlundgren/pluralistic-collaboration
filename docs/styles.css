@@ -1,0 +1,66 @@
+/* css styles */
+
+/* Add vertical dividers between table columns */
+th, td {
+  border-right: 1px solid #dee2e6;
+  padding: 8px;
+}
+
+/* Remove the divider from the last column to prevent double-bordering */
+th:last-child, td:last-child {
+  border-right: none;
+}
+
+/* (Optional) Zebra striping for better readability */
+tbody tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+/* Font size for all code blocks */
+code.sourceCode, 
+pre.sourceCode, 
+div.cell-output-stdout pre {
+  font-size: 0.9em; /* Adjust percentage, em, or rem as needed */
+} 
+
+/* Font size for all code output */
+.cell-output pre code, 
+.cell-output-stdout pre code, 
+.cell-output-display pre code {
+  font-size: 0.8em;
+}
+
+/* Control mapview popup size */
+.leaflet-popup-content {
+    width: 400px !important;
+    max-height: 400px !important;
+    overflow-y: auto !important; /* Adds a scrollbar if content overflows */
+}
+
+/* Grey text on figure captions */
+.figure-caption, figcaption {
+  color: gray;
+}
+/*
+code.sourceCode, pre.sourceCode {
+  font-size: 5px !important;
+} */
+
+/* 1. Eliminate the dashboard card background and border layout */
+.quarto-dashboard .card, 
+.quarto-dashboard .bslib-card, 
+.quarto-dashboard .card-body {
+    background-color: #000000 !important;
+    background: #000000 !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* 2. Flatten and black out the leaflet widget frame completely */
+.quarto-dashboard .htmlwidget, 
+.quarto-dashboard .leaflet-container {
+    background-color: #000000 !important;
+    background: #000000 !important;
+    border: none !important;
+    outline: none !important;
+}

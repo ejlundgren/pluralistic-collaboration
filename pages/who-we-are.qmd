@@ -1,0 +1,92 @@
+---
+title: "Who we are"
+---
+
+Blah blah blah!
+
+(Can have a table of bios, etc)
+
+```{r}
+#| echo: false
+#| eval: true
+
+rm(list = ls())
+suppressPackageStartupMessages({
+  library("here")
+  library("mapview")
+  library("sf")
+})
+
+mapviewOptions(
+  basemaps = c("Esri.WorldImagery", "OpenStreetMap"),
+  basemaps.color.shuffle = FALSE
+)
+
+x <- st_read(here("data/temp_for_map/", "4a7d27e1-84a3-4d6a-b4c2-6b6919f3cf4b202034-1-2zg7ul.ht5ut.shp"),
+             quiet = TRUE)
+
+mapview(x, zcol = "CONTINENT")
+
+```
+---
+
+# Participants
+
+::: {.grid}
+
+::: {.g-col-4}
+Person 1
+
+Headshot
+
+Affiliation, link to website
+:::
+
+::: {.g-col-4}
+Person 2
+
+Headshot
+
+Affiliation, link to website
+:::
+
+::: {.g-col-4}
+Person 3
+
+Headshot
+
+Affiliation, link to website
+:::
+
+:::
+
+---
+
+::: {.grid}
+
+::: {.g-col-4}
+Person 4
+
+Headshot
+
+Affiliation, link to website
+:::
+
+::: {.g-col-4}
+Person 5
+
+Headshot
+
+Affiliation, link to website
+:::
+
+::: {.g-col-4}
+Person 6
+
+Headshot
+
+Affiliation, link to website
+:::
+
+:::
+

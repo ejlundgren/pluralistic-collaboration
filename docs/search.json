@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "Blah blah blah!"
+  },
+  {
+    "objectID": "pages/who-we-are.html",
+    "href": "pages/who-we-are.html",
+    "title": "Who we are",
+    "section": "",
+    "text": "Blah blah blah!\n(Can have a table of bios, etc)\n\n\n\n\n\n\n\n\nParticipants\n\n\nPerson 1\nHeadshot\nAffiliation, link to website\n\n\nPerson 2\nHeadshot\nAffiliation, link to website\n\n\nPerson 3\nHeadshot\nAffiliation, link to website\n\n\n\n\n\nPerson 4\nHeadshot\nAffiliation, link to website\n\n\nPerson 5\nHeadshot\nAffiliation, link to website\n\n\nPerson 6\nHeadshot\nAffiliation, link to website"
+  },
+  {
+    "objectID": "pages/how-to-participate.html",
+    "href": "pages/how-to-participate.html",
+    "title": "How to participate",
+    "section": "",
+    "text": "Blah blah!"
+  },
+  {
+    "objectID": "pages/about.html",
+    "href": "pages/about.html",
+    "title": "About",
+    "section": "",
+    "text": "Blah blah blah"
+  }
+]
