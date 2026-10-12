@@ -4,7 +4,7 @@ title: "Who we are"
 
 Blah blah blah!
 
-(Can have a table of bios, etc)
+Can have a map with everyone's location as a point:
 
 ```{r}
 #| echo: false
@@ -30,7 +30,7 @@ mapview(x, zcol = "CONTINENT")
 ```
 ---
 
-# Participants
+# Principal Investigators
 
 ::: {.grid}
 
@@ -90,3 +90,63 @@ Affiliation, link to website
 
 :::
 
+# Participants 2026
+
+
+::: {.grid}
+
+::: {.g-col-4}
+Person 1
+
+Headshot
+
+Affiliation, link to website
+:::
+
+::: {.g-col-4}
+Person 2
+
+Headshot
+
+Affiliation, link to website
+:::
+
+::: {.g-col-4}
+Person 3
+
+Headshot
+
+Affiliation, link to website
+:::
+
+:::
+
+---
+
+::: {.grid}
+
+::: {.g-col-4}
+Person 4
+
+Headshot
+
+Affiliation, link to website
+:::
+
+::: {.g-col-4}
+Person 5
+
+Headshot
+
+Affiliation, link to website
+:::
+
+::: {.g-col-4}
+Person 6
+
+Headshot
+
+Affiliation, link to website
+:::
+
+:::
